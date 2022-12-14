@@ -1,0 +1,22 @@
+.beers-search-box {
+  padding: 10px;
+  width: 155px;
+  line-height: 30px;
+  margin: 0 auto;
+  font-size: medium;
+  text-align: center;
+  padding-right: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .beers-search-box {
+    width: 255px;
+    padding-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .beers-search-box {
+    width: 255px;
+    padding-right: 2px;
+  }
+}

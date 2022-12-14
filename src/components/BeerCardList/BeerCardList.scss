@@ -1,0 +1,23 @@
+.beer-list {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  padding-top: 20px;
+  padding-left: 180px;
+}
+@media only screen and (max-width: 768px) {
+  .beer-list {
+    width: 90%;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .beer-list {
+    grid-template-columns: 1fr;
+  }
+}

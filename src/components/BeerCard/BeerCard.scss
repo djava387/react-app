@@ -1,0 +1,40 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  //   background-color: #95dada;
+  //   border: 1px solid grey;
+  // background-color: rgb(114, 114, 114);
+  // border: 2px solid rgb(15, 14, 15);
+  background-color: white;
+  border: 2px solid rgb(15, 14, 15);
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+@media only screen and (max-width: 768px) {
+  .card-container {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .card-container {
+    width: 80%;
+    margin: auto;
+  }
+}
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-container img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60px;
+  height: 140px;
+}
